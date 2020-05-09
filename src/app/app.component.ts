@@ -19,9 +19,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.products = this.getProducts();
   }
-  ChangeImage(evt){
-    
-  }
+
   getProducts() {
     return [
       {
